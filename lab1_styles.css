@@ -1,11 +1,13 @@
 body {
-    margin: 0;
+    margin: 10;
 }
 
 .header {
     font-size: 36pt;
     font-family: sans-serif;
     height: 60px;
+    border: solid gray;
+    padding: 10px;
 }
 
 .container {
@@ -14,11 +16,13 @@ body {
 }
 
 .sidebar {
-    width: 200px;
+    width: 150px;
     background: #ff6677;
     position: absolute;
     top: 0;
     height: 100%;
+    padding: 10px 15px;
+   
 }
 
 .main-content {
@@ -26,4 +30,10 @@ body {
     position: absolute;
     top: 0;
     left: 200px;
+    border: 5px;
+    border: solid blue;
+    margin: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;  
 }
